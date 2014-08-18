@@ -1,0 +1,48 @@
+.tbc-city {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #000;
+  font-size: 13px;
+  z-index: 100;
+  box-shadow: 2px 2px 10px #999;
+  -moz-box-shadow: 2px 2px 10px #999;
+  -webkit-box-shadow: 2px 2px 10px #999;
+  min-width: 100px;
+  height: 178px;
+}
+.tbc-city .tbc-city-tip,
+.tbc-city-more {
+  color: #bbb;
+  font-size: 12px;
+  padding: 3px 2px;
+  margin: 0;
+  margin-left: 6px;
+}
+.tbc-city .tbc-city-list {
+  line-height: 26px;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+.tbc-city .tbc-city-list li {
+  padding: 0 8px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.tbc-city .tbc-city-list li:hover {
+  background-color: #33B2E4;
+  color: #fff;
+}
+.tbc-city .tbc-city-list li span {
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.tbc-city-more {
+  position: absolute;
+  bottom: 0;
+}
